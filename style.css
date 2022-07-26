@@ -1,0 +1,28 @@
+.sec1 {
+    background-color: #1F2937;
+    color: white;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec1-main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.smalltxt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 0.75rem;
+}
