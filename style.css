@@ -1,14 +1,45 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .sec1 {
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     color: white;
+    margin: auto;
 }
 
-.head-top {
+.header-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    width: 100vw;
+    align-items: flex-start;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    height: 36px;
+
 }
 
-#sec1-main{
+.header-links {
+    color:#e5e7eb;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+.sec1-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.largetxt{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -17,6 +48,11 @@
 .smalltxt {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.right-img {
+    align-self: stretch;
+    background-size: cover;
 }
 
 button {
