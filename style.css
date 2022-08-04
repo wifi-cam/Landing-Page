@@ -94,6 +94,7 @@ button {
 }
 
 .box-img {
+    max-width: 100%;
     margin: 10px 10px;
 }
 
@@ -114,7 +115,23 @@ button {
 }
 
 .sec4 {
+    display: flex;
+    flex-direction: row;
     background-color: #3882f6;
+    color: #f9faf8;
     border-width: 100px;
     border-radius: 00.75rem;
+    padding: 2rem 5rem;
+}
+
+.calltoaction {
+    flex-direction: column;
+}
+
+.sec4 > button {
+    width: 200px;
+    height: 50px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    border-color: #f9faf8;
 }
