@@ -94,6 +94,10 @@ button {
 }
 
 .box-img {
+    border: solid;
+    border-width: 5px;
+    border-color: #1F2937;
+    border-radius: 1rem;
     max-width: 100%;
     margin: 10px 10px;
 }
